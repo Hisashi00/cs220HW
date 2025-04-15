@@ -22,7 +22,6 @@ class FoodEntry {
 //to add/reference the food consunpution record.
 
 public class BloodSugarTracker {
-    
     static Map<String, List<FoodEntry>> foodLog = new HashMap<>();
     static Scanner scanner = new Scanner(System.in); 
 
